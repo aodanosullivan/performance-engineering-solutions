@@ -4,5 +4,17 @@
         <% if(headerTitle) { %>
             <h1 id="main-title" class="title"><%- headerTitle %></h1>
         <% } %>
+    <div class="nav-container menu-container">
+        <ul id="nav-menu">
+            <% for (var i in theme.menu) { %>
+            <li class="nav-item menu-item">
+                <a href="<%- url_for(theme.menu[i]) %>">
+                    <%= i %>
+                </a>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+
     </div>
 </header>

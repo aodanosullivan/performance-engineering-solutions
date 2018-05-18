@@ -3,7 +3,7 @@ title: about_me
 date: 2018-05-14 15:12:14
 ---
 
-{% asset_img profile-300x300.jpg %}
+![](index/profile-300x300.jpg)
 
 ## Aodan O’Sullivan
 

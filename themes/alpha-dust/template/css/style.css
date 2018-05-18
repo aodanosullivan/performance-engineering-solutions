@@ -325,6 +325,7 @@ section.main .post .read-more {
   text-align: right;
   padding: 5px;
 }
+
 .menu-bg .menu-container ul li a {
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
@@ -363,6 +364,23 @@ nav a:active.menu-active:before {
 nav a:hover {
   opacity: 1;
 }
+
+#nav-menu {
+  width: 100%;
+  margin: 0 auto;
+}
+
+li#nav-menu {
+  width: 33%;
+  float: left;
+}
+
+ul#nav-menu {
+  list-style-type: none;
+}
+
+
+
 .wrap-pagination {
   margin-top: 50px;
   font-size: 30px;
