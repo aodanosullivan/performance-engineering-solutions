@@ -13,7 +13,11 @@ categories:
 
 ### Can you trust the average response time? Transactions per second?
 
-The following was generated using {% link pandas http://pandas.pydata.org/ %}  and {% link "Jupyter Notebook" http://jupyter.org/ %}. If you are unaware of these, I’d suggest you check them out at some stage. I will probably write a few sections/hints & tips throughout the series.  For a start in pandas, you can check out this {% link https://www.youtube.com/watch?v=04zBNE2ZHSI tutorial %}.
+The following was generated using {% link pandas http://pandas.pydata.org/ %}  and {% link "Jupyter Notebook" http://jupyter.org/ %}. If you are unaware of these, I’d suggest you check them out at some stage. I will probably write a few sections/hints & tips throughout the series.  For a start in pandas, you can check out this {% link tutorial https://www.youtube.com/watch?v=04zBNE2ZHSI %}.
+
+If you want to try this out yourself, you can download the data needed below.
+
+{% asset_link response_times.csv response_times %}
 
 
 ```python
@@ -56,9 +60,6 @@ ax.grid()
 ```
 
 
-![png](output_3_0.png)
-
-
 ## What does this tell us about the customers response times?
 
 Answer: Not a lot.
@@ -91,7 +92,7 @@ for label in ax1.get_xticklabels():
 ```
 
 
-![png](output_5_0.png)
+{% asset_img output_5_0.png %}
 
 
 
@@ -123,7 +124,7 @@ ax.grid()
 ```
 
 
-![png](output_7_0.png)
+{% asset_img output_7_0.png %}
 
 
 ### We can make it look even better and more intuitive
@@ -155,5 +156,5 @@ ax.grid()
 ```
 
 
-![png](output_9_0.png)
+{% asset_img output_9_0.png %}
 
