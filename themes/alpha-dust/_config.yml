@@ -19,7 +19,7 @@ archive_date_format: MMM YYYY
 # Comments.
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: performance-engineering-solutions
 
 # Google Analytics Tracking ID
 google_analytics: UA-119199153-1
