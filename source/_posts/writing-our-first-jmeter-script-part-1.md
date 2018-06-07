@@ -23,7 +23,7 @@ You can find instructions on how to download the prestashop’s docker container
 First thing we need to do is install the DB.
 
 {% blockquote %}
-    \# docker run -ti --name training-mysql -e MYSQL_ROOT_PASSWORD=your-password -d mysql
+    \# docker run -ti \-\-name training-mysql -e MYSQL_ROOT_PASSWORD=your-password -d mysql
 {% endblockquote %}
 
 *Note: docker needs to execute with root priviledges. You can execute this command as root but it is recommended to use “sudo” or add your user to the docker group. When using docker it is better to only use images from trusted resources.*
@@ -54,7 +54,7 @@ Now we can pull down our prestashop image and point it to the mysql container we
 
 
 {% blockquote %}
-    \# docker run -ti --name training-prestashop --link training-mysql -e DB_SERVER=training-mysql -p 8080:80 -d prestashop/prestashop
+    \# docker run -ti \-\-name training-prestashop \-\-link training-mysql -e DB_SERVER=training-mysql -p 8080:80 -d prestashop/prestashop
 {% endblockquote %}
 
 Again is will pull down the image from the server if it can’t find it locally. The -p option tells docker to map port 8080 on our local machine to port 80 inside the container.
