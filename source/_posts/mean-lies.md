@@ -60,6 +60,8 @@ ax.grid()
 ```
 
 
+{% asset_img output_3_0.png %}
+
 ## What does this tell us about the customers response times?
 
 Answer: Not a lot.
