@@ -44,7 +44,7 @@ So, in order to use datetime objects in jython, you need to use them immediately
 
 {% asset_img  jython_datetime_oneliner_type.png %}
 
-This makes the code less elequent, but it looks like this "bug/feature" won't be fixed, so you will have to use this workaround.
+This makes the code less eloquent, but it looks like this "bug/feature" won't be fixed, so you will have to use this workaround.
 
 {% asset_img jython_datetime_oneline_code_fix.png %}
 
