@@ -1,9 +1,15 @@
 ---
-title: The Art/Science of Performance Engineering
+title: The Art & Science of Performance Engineering
 date: 2018-05-13 15:07:44
+photos: 
+	- /img/posts/article-pict-header.jpg
 ---
 
+### TODO - ADD CHAPTER NAME
+
 I've heard lots of people talk about the “Art of Performance Engineering”. At the start of your career it may seem like an art but it should evolve into a science which will allow you to create even better art. Some people believe that the best art is only obtained by people with the expert knowledge of the science behind the components of the art. One of the  goals of this blog is to help junior Performance Engineers understand the science in order to create their own art.
+
+<!--more-->
 
 I read a quote on the net (can't find the source now) that stated “There is no such thing as a Junior Performance  Engineer”. This is an interesting quote and can be interpreted several ways.
 

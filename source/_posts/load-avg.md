@@ -1,29 +1,33 @@
 ---
-title: load-avg
+title: Load average
 date: 2018-05-15 19:46:35
+photos: 
+	- /img/posts/article-pict-header.jpg
 tags: [linux, loadavg ]
 categories:
  - [linux]
  - [performance-engineering]
 ---
 
-## LoadAvg
+### TODO - ADD CHAPTER NAME
 
 One of the most important metrics to look at when you are testing an application on a linux server is load avg. If you are used to testing applications on Windows, ensure that you look at this metric for Linux machines.
 
 Load avg can be collected a number of ways.
 
+<!--more-->
+
 1. uptime
 
-{% asset_img uptime.png %}
+   ![img.01](uptime.png)
 
 2. top
 
-  {% asset_img top.png %}
+   ![img.02](top.png)
 
 3. cat /proc/loadavg
 
-  {% asset_img proc.png %}
+   ![img.03](proc.png)
 
 ### What is LoadAvg
 
@@ -58,6 +62,6 @@ Note: \*You can have very high loadavg and low cpu because some processes may be
 
 Most monitoring tools for Linux collect loadavg and it is good to use all 3 metrics in a graph.
 
-{% asset_img loadavg_zabbix.png %}
+![img.04](loadavg_zabbix.png)
 
 

@@ -1,13 +1,13 @@
 ---
-title: jmeter_python_gotchas
+title: JMeter & python gotchas
 date: 2019-03-06 12:52:37
+photos: 
+	- /img/posts/article-pict-header.jpg
 tags: [jmeter, python]
 categories:
  - [jmeter]
  - [python]
 ---
-
-## Jython/Python Jmeter Gotchas
 
 ### Datetime Objects
 
@@ -19,6 +19,8 @@ Let's look at the datetime object.
 
 If we wanted to create 2 variables for our script, 1 being the current datetime and the other being 10 days from now.
 This is a common case when scripting for airline flights.
+
+<!--more-->
 
 In native Python we can just do something like:
 
@@ -34,18 +36,18 @@ current_date is 2019-03-06 13:06:30.941109, date_plus_10_days is 2019-03-16 13:0
 
 However when using this in jmeter JSR223 code we get the following error.
 
-{% asset_img jython_gotchya_datetime_error.png %} 
+![img.01](jython_gotchya_datetime_error.png)
 
 This is because of a "TypeError". When Jython assigns a datetime object to a variable, it transforms it to a java.sql.Timestamp object.
 
-{% asset_img jython_datetime_java_type.png %}
+![img.02](jython_datetime_java_type.png)
 
 So, in order to use datetime objects in jython, you need to use them immediately and not assign them to a variable.
 
-{% asset_img  jython_datetime_oneliner_type.png %}
+![img.03]( jython_datetime_oneliner_type.png)
 
 This makes the code less eloquent, but it looks like this "bug/feature" won't be fixed, so you will have to use this workaround.
 
-{% asset_img jython_datetime_oneline_code_fix.png %}
+![img.04](jython_datetime_oneline_code_fix.png)
 
 

@@ -1,14 +1,12 @@
 ---
-title: mean-lies
+title: Mean lies!
 date: 2018-05-15 20:20:02
+photos: 
+	- /img/posts/article-pict-header.jpg
 tags: [jupyter, pandas, performancer engineering, standard deviation, statistics ]
 categories: 
  - [ performance-engineering ]
 ---
-
-# Mean Lies
-
-## Averages are mean!
 
 
 ### Can you trust the average response time? Transactions per second?
@@ -16,6 +14,8 @@ categories:
 The following was generated using {% link pandas http://pandas.pydata.org/ %}  and {% link "Jupyter Notebook" http://jupyter.org/ %}. If you are unaware of these, I’d suggest you check them out at some stage. I will probably write a few sections/hints & tips throughout the series.  For a start in pandas, you can check out this {% link tutorial https://www.youtube.com/watch?v=04zBNE2ZHSI %}.
 
 If you want to try this out yourself, you can download the data needed below.
+
+<!--more-->
 
 {% asset_link response_times.csv response_times %}
 
@@ -40,7 +40,7 @@ rs = pd.read_csv('data/response_times.csv',
 rs['timestamp'] = pd.to_datetime(rs['timestamp'])
 ```
 
-## Plot the average/mean, max and min in 1 minute intervals
+Plot the average/mean, max and min in 1 minute intervals
 
 
 ```python
@@ -60,16 +60,15 @@ ax.grid()
 ```
 
 
-{% asset_img output_3_0.png %}
+![img.01](output_3_0.png)
 
-## What does this tell us about the customers response times?
+What does this tell us about the customers response times?
 
 Answer: Not a lot.
 
 We can say that the minimum response time is around 5ms, the maximum is around 500ms. The average/mean is around 250ms however what does average/mean mean? Does this mean that the most of the customers received a response time of 250ms? Answer: We can’t say anything for sure.
 
 Let’s plot all the response times and see what we have.
-
 
 
 ```python
@@ -90,15 +89,12 @@ ax1.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
 for label in ax1.get_xticklabels():
     label.set_rotation(0)
 
-
 ```
 
-
-{% asset_img output_5_0.png %}
-
+![img.02](output_5_0.png)
 
 
-## That’s a pretty different view from the previous graph
+That’s a pretty different view from the previous graph
 
 It looks like 3 very different profiles were run. But we didn’t see this in the Mean/Min/Max Graph.
 
@@ -125,9 +121,7 @@ ax.set_title('Response Times')
 ax.grid()
 ```
 
-
-{% asset_img output_7_0.png %}
-
+![img.03](output_7_0.png)
 
 ### We can make it look even better and more intuitive
 
@@ -158,5 +152,5 @@ ax.grid()
 ```
 
 
-{% asset_img output_9_0.png %}
+![img.04](output_9_0.png)
 

@@ -1,16 +1,20 @@
 ---
-title: writing-our-first-jmeter-script-part-1
+title: Writing our first jmeter script - part 1
 date: 2018-05-20 14:55:47
+photos: 
+	- /img/posts/article-pict-header.jpg
 tags: [jmeter]
 categories: 
  - [jmeter]
 ---
 
-## Setting up our Test Environment 
+### Setting up environment.
 
 For this exercise we are going to write a jmeter script against a sample website. We are going to use {% link prestashop‘s http://demo.prestashop.com/en/?view=front %} free e-commerce software to set up our own local website.
 
 If you haven’t already, {% post_link jmeter-basic-installation "install jmeter" %} on your local machine.
+
+<!--more-->
 
 {% blockquote %}
 Note: Please don't execute high traffic against public websites without their consent first.
@@ -81,11 +85,11 @@ If you ever want to stop and restart these containers it is as simple as doing:
 Once you go to http://localhost:8080/ you will be presented with the configuration wizard to set up your “shop”.
 
 
-{% asset_img prestashop_start-768x450.png %}
+![img.01](prestashop_start-768x450.png)
 
 Follow the wizard.
 
-{% asset_img store-info-768x447.png %}
+![img.02](store-info-768x447.png)
 
 When configuring the database it will default to 127.0.0.1. As we are running our DB in a container, we need to point this to the ipaddress of the container.
 
@@ -98,7 +102,7 @@ You can get the ipaddress of your container by running “docker inspect” comm
 
 Enter in your information and Click on the “Test your Database Now” button and create your DB.
 
-{% asset_img prestashop_db_created-768x389.png %}
+![img.03](prestashop_db_created-768x389.png)
 
 Click Next and follow the on-screen instructions to complete the installation of your test site. Take note of your login/password information. You may need this in the future to increase your “Stock” after running a performance test.
 
@@ -149,4 +153,4 @@ In order to start using the site, we must first enter the docker container and d
     root@26923ecb2431:/var/www/html/# 
 {% endblockquote %}
 
-{% asset_img prestashop_main-768x386.png %}
+![img.04](prestashop_main-768x386.png)

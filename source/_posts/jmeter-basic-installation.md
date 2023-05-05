@@ -1,16 +1,19 @@
 ---
-title: jmeter-basic-installation
+title: JMeter basic installation
 date: 2018-05-14 14:52:22
+photos: 
+	- /img/posts/article-pict-header.jpg
 tags: [jmeter]
 categories:
  - [jmeter]
 ---
 
-# Basic Installation
 As with most of the posts here, I will be using linux.
 
-## Downloading & installation
+### Downloading & installation
 Get you installation package from the jmeter site.  I recommend using version 3.0+. You will see why in later posts. Download the binaries in either tar.gz or zip format and verify the integrity. Then extract it to a dedicated location for your loaddrivers. You may have multiple versions of jmeter and upgrading to new versions is easier.
+
+<!--more-->
 
 For tar files
 
@@ -31,7 +34,7 @@ Done.!! We will be leaving these directories untouched.
 {% endcodeblock %}
 
 
-## Project Folder Structure
+### Project Folder Structure
 I recommend the following project folder structure.
 
 {% blockquote %}
