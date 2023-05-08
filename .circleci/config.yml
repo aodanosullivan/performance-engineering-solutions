@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:alpine:3.16
+      - image: cimg/node:20.1.0
     working_directory: ~/performance-engineering-solutions.com
     steps:
       - checkout
