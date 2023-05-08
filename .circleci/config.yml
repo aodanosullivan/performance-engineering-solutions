@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:9.9.0
+      - image: node:alpine:3.16
     working_directory: ~/performance-engineering-solutions.com
     steps:
       - checkout
