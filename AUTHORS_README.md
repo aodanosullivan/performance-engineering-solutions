@@ -8,9 +8,11 @@ Command line
    * accept defaults
    * when keys are created move them (id_ed25519 and id_ed25519.pub) to `~/.ssh/keys/github`
    * config private key to be used with github by editing `~/.ssh/config` and adding:
+
          Host github.com
           IdentityFile ~/.ssh/keys/github/id_ed25519
           IdentitiesOnly yes
+
  * add ssh key for ssh-like access
    * click profile icon on github
    * pick `Settings`
