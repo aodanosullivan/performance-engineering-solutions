@@ -8,12 +8,15 @@ categories:
  - [jmeter]
 ---
 
+JMeter has many features itself, but you can enhance it even more with dedicated plugins. Common source to get them from community supported location is https://jmeter-plugins.org
+
+<!--more-->
+
 ### Plugins
+
 As mentioned in a previous post, using the directory structure provided and the run_jmeter.sh script, we can separate our jmeter installation from our plugins/libraries. To do this, all you have to do is copy your plugins to the {project}/lib/ext/ folder.
 
 {% link "jmeter-plugins.org" https://jmeter-plugins.org/ %}  has a wide variety of plugins available (or you could write your own). You can install these plugins individually or use the plugin manager. 2 plugins I highly recommend are the {% link "Throughput Shaping Timer" https://jmeter-plugins.org/wiki/ThroughputShapingTimer/ %}  and the {% link "Ultimate Thread Group" https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/ %} . These plugins allow you to shape your test traffic the way that you want.
-
-<!--more-->
 
 To install these, download from the links above and place in your {project}/lib/ext folder. Once you start jmeter these will be available the Test plan menu.
 

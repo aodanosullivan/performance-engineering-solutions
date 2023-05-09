@@ -9,6 +9,10 @@ categories:
  - [python]
 ---
 
+Using python is easy with JMeter, which doesn't mean one should not be careful with how it's implemented. Here you will find out about examples, how to deal with it.
+
+<!--more-->
+
 ### Datetime Objects
 
 There are some things to watch out for when using  {% link jython https://www.jython.org/ %}/python in JSR223 code in Jmeter.
@@ -19,8 +23,6 @@ Let's look at the datetime object.
 
 If we wanted to create 2 variables for our script, 1 being the current datetime and the other being 10 days from now.
 This is a common case when scripting for airline flights.
-
-<!--more-->
 
 In native Python we can just do something like:
 

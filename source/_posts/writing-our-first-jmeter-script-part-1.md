@@ -8,13 +8,15 @@ categories:
  - [jmeter]
 ---
 
-### Setting up environment.
-
-For this exercise we are going to write a jmeter script against a sample website. We are going to use {% link prestashop‘s http://demo.prestashop.com/en/?view=front %} free e-commerce software to set up our own local website.
-
-If you haven’t already, {% post_link jmeter-basic-installation "install jmeter" %} on your local machine.
+For this exercise we are going to write a jmeter script against a sample website. We are going to use demo of prestashop, free e-commerce software to set up our own local website.
 
 <!--more-->
+
+### Setting up environment.
+
+You can find mentioned demo here: {% link prestashop‘s http://demo.prestashop.com/en/?view=front %} free e-commerce software to set up our own local website.
+
+If you haven’t already, {% post_link jmeter-basic-installation "install jmeter" %} on your local machine.
 
 {% blockquote %}
 Note: Please don't execute high traffic against public websites without their consent first.

@@ -9,13 +9,14 @@ categories:
  - [performance-engineering]
 ---
 
-### TODO - ADD CHAPTER NAME
 
 One of the most important metrics to look at when you are testing an application on a linux server is load avg. If you are used to testing applications on Windows, ensure that you look at this metric for Linux machines.
 
-Load avg can be collected a number of ways.
-
 <!--more-->
+
+### Getting the data
+
+Load avg can be collected a number of ways.
 
 1. uptime
 
