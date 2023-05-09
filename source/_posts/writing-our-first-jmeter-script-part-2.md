@@ -8,14 +8,16 @@ categories:
  - [jmeter]
 ---
 
+To make working with JMeter easier, it's possible to record traffic using browser. That makes implementation faster and is not very complicated. In this exercise Recording Controller component is used as example, that can be followed up easily.
+
+<!--more-->
+
 ### Using the Recording Controller.
 
 Now that we have our {% post_link writing-our-first-jmeter-script-part-1 "local website" %} installed, we will record traffic against this using jmeter.
 
 First create a new script and add a basic thread group. (We can change this easily later)
 To record, it is not necessary to add a thread group but it makes things easier going forward.
-
-<!--more-->
 
 ![img.01](jmeter-simple-thread-group.png)
 

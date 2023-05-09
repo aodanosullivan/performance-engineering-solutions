@@ -9,6 +9,12 @@ categories:
  - [python]
 ---
 
+JMeter has many features. Among them there is possibility to implement extra functionality in languages like java, groovy and python. In this post, closer approach for python is going to be discussed.
+
+<!--more-->
+
+### Setup
+
 Installing Python for jmeter is easy. First download the jython.jar from {% link here http://www.jython.org/downloads.html %}.
 
 If you use the layout suggested in my {% post_link jmeter-basic-installation "installation guide" %}, place the jython.jar in your {project_home}/lib directory and start jmeter.
@@ -16,8 +22,6 @@ If you use the layout suggested in my {% post_link jmeter-basic-installation "in
 If you use the default installation, place the jython.jar in your {jmeter_home}/lib directory and start jmeter.
 
 Once you start up your jmeter, in your thread group you now have a python & jython option for your JSR223 PreProcessor, Sampler and PostProcessor items.
-
-<!--more-->
 
 ![img.01](python_jmeter-1024x558.png)
 

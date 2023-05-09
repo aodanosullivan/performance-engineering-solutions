@@ -8,12 +8,13 @@ categories:
  - [jmeter]
 ---
 
-As with most of the posts here, I will be using linux.
-
-### Downloading & installation
-Get you installation package from the jmeter site.  I recommend using version 3.0+. You will see why in later posts. Download the binaries in either tar.gz or zip format and verify the integrity. Then extract it to a dedicated location for your loaddrivers. You may have multiple versions of jmeter and upgrading to new versions is easier.
+As with most of the posts here, I will be using linux. In a few simple steps you find out how to get JMeter to work on you local machine.
 
 <!--more-->
+
+### Downloading & installation
+
+Get you installation package from the jmeter site.  I recommend using version 3.0+. You will see why in later posts. Download the binaries in either tar.gz or zip format and verify the integrity. Then extract it to a dedicated location for your loaddrivers. You may have multiple versions of jmeter and upgrading to new versions is easier.
 
 For tar files
 

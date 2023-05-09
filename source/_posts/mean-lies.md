@@ -8,6 +8,9 @@ categories:
  - [ performance-engineering ]
 ---
 
+Mean is very popular in many statistics used for evaluating performance. But does one is really aware of all pitfalls that may come with analysing data only with mean in scope?
+
+<!--more-->
 
 ### Can you trust the average response time? Transactions per second?
 
@@ -15,10 +18,7 @@ The following was generated using {% link pandas http://pandas.pydata.org/ %}  a
 
 If you want to try this out yourself, you can download the data needed below.
 
-<!--more-->
-
 {% asset_link response_times.csv response_times %}
-
 
 ```python
 import numpy as np
