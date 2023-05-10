@@ -2,7 +2,7 @@
 title: JMeter - installing plugins libraries
 date: 2018-05-14 19:06:47
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/jmeter.png
 tags: [jmeter]
 categories: 
  - [jmeter]

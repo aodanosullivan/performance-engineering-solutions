@@ -2,7 +2,7 @@
 title: JMeter basic installation
 date: 2018-05-14 14:52:22
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/jmeter.png
 tags: [jmeter]
 categories:
  - [jmeter]

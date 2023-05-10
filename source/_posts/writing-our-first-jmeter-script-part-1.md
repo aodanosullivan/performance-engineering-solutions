@@ -2,7 +2,7 @@
 title: Writing our first jmeter script - part 1
 date: 2018-05-20 14:55:47
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/jmeter.png
 tags: [jmeter]
 categories: 
  - [jmeter]

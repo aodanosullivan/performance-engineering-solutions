@@ -2,7 +2,7 @@
 title: Mean lies!
 date: 2018-05-15 20:20:02
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/stats.jpg
 tags: [jupyter, pandas, performancer engineering, standard deviation, statistics ]
 categories: 
  - [ performance-engineering ]

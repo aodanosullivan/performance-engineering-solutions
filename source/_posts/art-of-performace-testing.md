@@ -2,7 +2,7 @@
 title: The Art & Science of Performance Engineering
 date: 2018-05-13 15:07:44
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/stats.jpg
 ---
 
 I've heard lots of people talk about the “Art of Performance Engineering”. At the start of your career it may seem like an art but it should evolve into a science which will allow you to create even better art. Some people believe that the best art is only obtained by people with the expert knowledge of the science behind the components of the art. One of the  goals of this blog is to help junior Performance Engineers understand the science in order to create their own art.

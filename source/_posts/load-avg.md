@@ -2,7 +2,7 @@
 title: Load average
 date: 2018-05-15 19:46:35
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/tux.png
 tags: [linux, loadavg ]
 categories:
  - [linux]

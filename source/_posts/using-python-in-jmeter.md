@@ -2,7 +2,7 @@
 title: Using python in JMeter
 date: 2018-05-14 14:39:51
 photos: 
-	- /img/posts/article-pict-header.jpg
+	- /img/posts/jmeter.png
 tags: [jmeter, python]
 categories:
  - [jmeter]
