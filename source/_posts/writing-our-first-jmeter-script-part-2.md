@@ -26,3 +26,4 @@ Next add the HTTP(S) Test Script Recorder by right-clicking on Test Plan -> Add 
 
 ![img.02](https-test-script-recorder.png)
 
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

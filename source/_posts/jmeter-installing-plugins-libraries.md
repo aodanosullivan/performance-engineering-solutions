@@ -82,3 +82,5 @@ Even if you are not worried about user sessions you need to ensure that you have
 ### Libraries
 
 By installing external libraries, we can use them in jmeter. Next I will show you how to use {% post_link using-python-in-jmeter "Python in jmeter" %}.
+
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

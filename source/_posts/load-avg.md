@@ -65,4 +65,4 @@ Most monitoring tools for Linux collect loadavg and it is good to use all 3 metr
 
 ![img.04](loadavg_zabbix.png)
 
-
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

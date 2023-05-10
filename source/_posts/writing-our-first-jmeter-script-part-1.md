@@ -156,3 +156,5 @@ In order to start using the site, we must first enter the docker container and d
 {% endblockquote %}
 
 ![img.04](prestashop_main-768x386.png)
+
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

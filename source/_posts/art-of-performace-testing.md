@@ -22,3 +22,5 @@ As an employee, this is less true but also valid. Good Performance Engineers are
 * In-depth Linux knowledge. Regardless of what OS you are working on at the moment, the likely-hood is that at some point in your career you will be using or testing applications running on Linux.
 * {% link “Systems Performance: Enterprise and the cloud” http://www.brendangregg.com/sysperfbook.html %}  by Brendan Gregg. This book has been called the bible of Performance Engineering but like the bible, can be tricky to understand at first. I recommend getting a good understanding of Linux and Performance Engineering before tackling this book. The author was a Performance Engineer in Sun/Oracle before becoming a Senior Performance Architect at Netflix. Did you ever see the youtube clip of someone {% link "screaming in a datacenter" https://www.youtube.com/watch?v=tDacjrSCeq4 %}? That was Brendan Gregg.
 
+
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

@@ -93,3 +93,5 @@ Sample run_jmeter.sh script
     -j ${directory}/logs/jmeter.log ${any_other_variables} "$@"
 
 {% endcodeblock %}
+
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}

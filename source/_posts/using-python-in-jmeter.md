@@ -33,3 +33,5 @@ Note: Remember to click "Cache compiled script" (or give it an unique cache file
 {% endblockquote %}
 
 This is just a short example. Over the course of this blog we will use more python in our jmeter scripts.
+
+Author: {% link "Aodan" https://performance-engineering-solutions.com/team/index.html#Aodan %}
