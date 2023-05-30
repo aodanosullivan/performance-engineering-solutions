@@ -3,7 +3,7 @@ title: Mocking gRPC services
 date: 2023-05-27T21:00:00+01:00
 author: Piotr
 photos: 
-	- /img/posts/grpc.png
+	- /img/posts/grpc.jpg
 tags: [mocks,grpc]
 categories: 
   - [mocks]
@@ -39,7 +39,7 @@ As there are free-of-charge solutions in the internet, let's discuss them briefl
 ### Wiremock
 
 [Wiremock](https://wiremock.org/) is java-based solution, that provides easily configurable stand-alone jar that can serve as a mock. Code repo is [here](https://github.com/wiremock/wiremock)
-Wiremock as of now, does not support gRPC natively. It's planned to be included in the [future](https://github.com/orgs/wiremock/projects/5/views/1?filterQuery=grpc&pane=issue&itemId=26295573), but without any hard dates or promises. Still, there is open source solution based on wiremock, called (grpc-wiremock](https://github.com/Adven27/grpc-wiremock), that can be used.
+Wiremock as of now, does not support gRPC natively. It's planned to be included in the [future](https://github.com/orgs/wiremock/projects/5/views/1?filterQuery=grpc&pane=issue&itemId=26295573), but without any hard dates or promises. Still, there is open source solution based on wiremock, called [grpc-wiremock](https://github.com/Adven27/grpc-wiremock), that can be used.
 
 This solution is dedicated to be run with docker. With some effort it's also possible to run it locally.
 Proposed docker file example is provided within [repo](https://github.com/Adven27/grpc-wiremock/blob/master/example) together with demo proto files and wiremock configuration. There is also .json file for testing with ghz binary available from this [source](https://github.com/bojand/ghz/releases). Setup is quite straightforward.
