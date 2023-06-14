@@ -1,6 +1,7 @@
 ---
 title: The Art & Science of Performance Engineering
 date: 2018-05-13 15:07:44
+author: Aodan
 photos: 
 	- /img/posts/stats.jpg
 ---

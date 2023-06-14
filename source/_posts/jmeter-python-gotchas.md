@@ -1,6 +1,7 @@
 ---
 title: JMeter & python gotchas
 date: 2019-03-06 12:52:37
+author: Aodan
 photos: 
 	- /img/posts/jmeter.png
 tags: [jmeter, python]
