@@ -1,6 +1,7 @@
 ---
 title: Using python in JMeter
 date: 2018-05-14 14:39:51
+author: Aodan
 photos: 
 	- /img/posts/jmeter.png
 tags: [jmeter, python]

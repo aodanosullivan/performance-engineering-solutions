@@ -1,6 +1,7 @@
 ---
 title: Writing our first jmeter script - part 2
 date: 2018-11-27 21:05:54
+author: Aodan
 photos: 
 	- /img/posts/jmeter.png
 tags: [jmeter]

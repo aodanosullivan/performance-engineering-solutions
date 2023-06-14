@@ -1,6 +1,8 @@
+#### New articles
+
 This is a brief information for adding new articles.
 
-Command line
+##### Command line
 
  * create github account
  * create ssh key to be used for this service
@@ -30,6 +32,17 @@ Command line
  * commit changes and push to remote branch `git push origin your-branch`
  * after reviwe your changed will be merged and available to see on https://performance-engineering-solutions.com
 
-Web browser
+##### Web browser
 
 You can do similar thing by simply uploading files into mentioned locations with web browser, without using git from command line. You just need to be added as collabolator by owner - Aodan.
+
+#### Testing content locally
+
+You can check how your article looks like by setting up website locally
+
+ * copy repo content with your changes to /tmp: `cp -r performance-engineering-solutions /tmp`
+ * install hexo there: `cd /tmp/performance-engineering-solutions && npm install hexo`
+ * generate code: `node_modules/hexo/bin/hexo generate`
+ * run server: `node_modules/hexo/bin/hexo server`
+
+Now you can see your changes tested

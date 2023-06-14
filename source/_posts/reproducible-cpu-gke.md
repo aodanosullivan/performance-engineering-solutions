@@ -1,6 +1,7 @@
 ---
 title: Reproducible CPU Utilization in Kubernetes/GKE
 date: 2023-06-09 14:39:51
+author: Michał
 photos: 
 	- /img/posts/cpu.png
 tags: [cpu, kubernetes, monitoring]
@@ -11,6 +12,8 @@ categories:
 ---
 
 With the advent of containerized technologies such as Kubernetes it has become increasingly challenging to properly measure the application CPU utilization for performance testing and benchmarking purposes. In this article we will examine how to improve CPU utilization reproducibility between performance tests and therefore make our performance testing and benchmarking more reliable.
+
+<!--more-->
 
 # CPU Utilization in GKE - Issues
 
