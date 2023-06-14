@@ -1,5 +1,5 @@
 <% if (!is_current("about", false)){ %>
-	<a href="/team/" class="<%= class_name %>">
+	<a href="/team/#<%- post.author %>" class="<%= class_name %>">
           <%- post.author %> &nbsp;
 	</a>
 	<a href="<%- url_for(post.path) %>" class="<%= class_name %>">
