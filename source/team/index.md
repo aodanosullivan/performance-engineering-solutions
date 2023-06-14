@@ -23,5 +23,5 @@ Along with my thirst for knowledge, I also have a passion for training others. A
 
 ![Piotr](img/team/piotr.avatar-150x150.jpg)
 
-I work on performance testing for over a decade now. Mostly on test design and result analysis. I use JMeter as main load driver and have a chance to play with many aspects related to it. Other areas of intrest are: flux queries, grafana dashboards, overall test debug and issue tracking and analysis.
+I work on performance testing for over a decade now. Mostly on test design and result analysis. I use JMeter as main load driver and have a chance to play with many aspects related to it. Other areas of interest are: flux queries, grafana dashboards, overall test debug, issues tracking and analysis.
 
