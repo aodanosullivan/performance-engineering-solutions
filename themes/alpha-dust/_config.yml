@@ -1,0 +1,52 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-cube
+
+# Header
+menu:
+  Home: /
+  About: /about-me/index.html
+  Jmeter: /categories/jmeter
+  Performance Engineering: /categories/performance-engineering
+  Linux: /categories/linux
+  Python: /categories/python
+
+# Default post title
+default_post_title: Untitled
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: performance-engineering-solutions
+
+# Google Analytics Tracking ID
+google_analytics: UA-119199153-1
+
+# Social Accounts
+github_url: https://github.com/aodanosullivan/performance-engineering-solutions
+email_url: aodan.osullivan@gmail.com
+rss_url: \#
+
+# Footer About Text
+footer_about: "<b>Donate</b>
+<p>
+
+Donations I don't have the finances at the moment to properly show everything I know, so if you would like to donate I promise to use all donations for the betterment of Performance Engineering, such as AWS instances to demo running under high load, etc. 
+<p>
+Donate via: 
+<p>
+Bitcoin Address: 3DTcXvtb4f1275hxpBK6gNrYiqfM1N7sB5
+<p>
+Ethereum Address: 0x2b395D9a62Df6FdD3D2a2FE0215743De30b20A51
+<p>
+Electroneum Address: etnk8btmnAzYuUKbUitNy7cPs2QM52uNciSbeDbBtFk2ieq6tWQW6FPUvmmtc9aG1NHDqyBnteYeE8LdhjtZhjYL4CaDZaTuvA
+<p>
+Thanks for reading!!
+
+"
+
+# Footer Copyright Line
+footer_copyright: "All rights reserved | Built using hexo and AWS Serverless | theme: alpha-dust"
+
