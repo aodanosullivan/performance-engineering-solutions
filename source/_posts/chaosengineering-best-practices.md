@@ -20,15 +20,15 @@ By definition from Gremlin site: „Chaos Engineering is a disciplined approach 
 
 ## Principles for Chaos Engineering 
 
-### Plan an experiment
+#### Plan an experiment
 
 **Create a hypothesis, plan, test scenarios. What could go wrong? How can we avoid it ?**
 
-### Test it  
+#### Test it  
 
 **Execute the smallest tests that will teach us something and allow to be better prepared**
 
-### Review results & investigate
+#### Review results & investigate
 
 **Find an issue? Job well done! Review the results, investigate any failures, provide feedback and guidance**
 
@@ -38,10 +38,14 @@ Chaos engineering begins with analyzing the expected behavior of a software syst
 
 ![img.01](how-does-chaos-engineering-work.png)
 
-#### Hypothesis: When engineers change a variable, they ask themselves what should happen. They assume that services will continue uninterrupted if they terminate them randomly. A hypothesis consists of a question and an assumption
-#### Testing: Engineers use simulated uncertainty, load testing, and network and device monitoring to test their hypothesis. A failure in the stack breaks the hypothesis.
-#### Blast Radius: Using failure analysis, engineers can learn what happens under unstable cloud conditions. A test's effect is known as its 'blast radius.' Chaos engineers can manipulate the blast radius by controlling the tests.
-#### Insights: It helps make software and microservices more resilient to tackle unforeseeable events.
+#### Hypothesis:
+When engineers change a variable, they ask themselves what should happen. They assume that services will continue uninterrupted if they terminate them randomly. A hypothesis consists of a question and an assumption
+#### Testing:
+Engineers use simulated uncertainty, load testing, and network and device monitoring to test their hypothesis. A failure in the stack breaks the hypothesis.
+#### Blast Radius: 
+Using failure analysis, engineers can learn what happens under unstable cloud conditions. A test's effect is known as its 'blast radius.' Chaos engineers can manipulate the blast radius by controlling the tests.
+#### Insights: 
+It helps make software and microservices more resilient to tackle unforeseeable events.
 
 
 
