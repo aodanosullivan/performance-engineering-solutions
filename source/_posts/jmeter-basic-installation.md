@@ -3,7 +3,7 @@ title: JMeter basic installation
 date: 2018-05-14 14:52:22
 author: Aodan
 photos: 
-	- /img/posts/jmeter.png
+ - /img/posts/jmeter.png
 tags: [jmeter]
 categories:
  - [jmeter]
