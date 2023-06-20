@@ -3,7 +3,7 @@ title: Load average
 date: 2018-05-15 19:46:35
 author: Aodan
 photos: 
-	- /img/posts/tux.png
+ - /img/posts/tux.png
 tags: [linux, loadavg ]
 categories:
  - [linux]

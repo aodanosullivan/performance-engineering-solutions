@@ -3,10 +3,10 @@ title: Mocking gRPC services
 date: 2023-05-27T21:00:00+01:00
 author: Piotr
 photos: 
-	- /img/posts/grpc.jpg
+ - /img/posts/grpc.jpg
 tags: [mocks,grpc]
 categories: 
-  - [mocks]
+ - [mocks]
 ---
 
 
@@ -36,7 +36,7 @@ Watching demo may be also a good idea for general overview, how most of mocks (a
 
 As there are free-of-charge solutions in the internet, let's discuss them briefly, without getting into details too much.
 
-### Wiremock
+#### Wiremock
 
 [Wiremock](https://wiremock.org/) is java-based solution, that provides easily configurable stand-alone jar that can serve as a mock. Code repo is [here](https://github.com/wiremock/wiremock)
 Wiremock as of now, does not support gRPC natively. It's planned to be included in the [future](https://github.com/orgs/wiremock/projects/5/views/1?filterQuery=grpc&pane=issue&itemId=26295573), but without any hard dates or promises. Still, there is open source solution based on wiremock, called [grpc-wiremock](https://github.com/Adven27/grpc-wiremock), that can be used.
@@ -120,7 +120,7 @@ Server should return:
 
 This service was successfully mocked with example provided by mock developer. For a reference same service will be used to test other mocks.
 
-### Mountebank
+#### Mountebank
 
 [Mountebank](http://www.mbtest.org/) is another great tool, that is used for mocking. Code can be found [here](https://github.com/bbyars/mountebank). In a similar way as wiremock, it doesn't support gRPC by default, but it's possible to install plugin, that will make it working.
 
@@ -355,7 +355,7 @@ Response is successful, and in debug server messages can be seen how request was
 
 In this way it was showed how mountebank can be used to work with gRPC.
 
-### Camouflage
+#### Camouflage
 
 Now we can take a look on the only mock server, that offer gRPC support "by default".
 [Camouflage](https://testinggospels.github.io/camouflage/) is npm-installable application. Code is available in [github repo](https://github.com/testinggospels/camouflage). Again, we re-use protofiles from previous examples to check how mocking can be implemented.
@@ -534,7 +534,7 @@ And reported on server side:
 
 In this time mocking was successful again.
 
-### Comparison
+#### Comparison
 
 Table below shows a brief summary for all discussed mocks.
 
