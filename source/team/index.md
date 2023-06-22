@@ -22,13 +22,13 @@ Along with my thirst for knowledge, I also have a passion for training others. A
 
 ![Pablo](img/team/pablo.profile-150x150.jpg)
 
-Hello, my name is Pawel Popiolek. I'm 28 years in IT industry. Proud member of Performance Engineering Team at Sabre Polska.
+Hello, my name is Pawel Popiolek. I'm 28 years in IT industry. Proud member of Performance Engineering Team for 15 years.
 
-Worked in different projects including ATSE, SSI, PNR Services by helping application teams with testing, implementation, integration, tuning and scaling Sabre applications.
+Worked in different projects by helping development teams with testing, implementation, integration, tuning and scaling their applications.
 
-Since 2018 engaged with performance testing, tuning and guidance in different cloud environments like AWS, NGP/Openshift, GCP/GKE helping with integratin PLAB As a Service solution in customer’s CI/CD pipelines.
+Since 2018 engaged with performance testing, tuning and guidance in different cloud environments like AWS, Openshift, GCP/GKE helping with integration different testing solutions in customer’s CI/CD pipelines.
 
-Introducing & leading Chaos Engineering initiative for Sabre applications
+Working on different implementation of Chaos Engineering. 
 
 ---
 
