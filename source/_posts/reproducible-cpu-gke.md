@@ -1,8 +1,9 @@
 ---
 title: Reproducible CPU Utilization in Kubernetes/GKE
 date: 2023-06-09 14:39:51
+author: Michal
 photos: 
-	- /img/posts/cpu.png
+ - /img/posts/cpu.png
 tags: [cpu, kubernetes, monitoring]
 categories:
  - [cpu]
@@ -38,11 +39,21 @@ We will explore the possibilities provided by Kubernetes.
 
 Our test app has the following resource limits settings:
 
-*limits:            cpu: "11"            ephemeral-storage: 6Gi            memory: 6Gi*
+{% codeblock %}
+limits:
+  cpu: "11"
+  ephemeral-storage: 6Gi
+  memory: 6Gi
+{% endcodeblock %}
 
 The resource requests settings for the same app are provided below:
 
-*requests:            cpu: 2500m            ephemeral-storage: 1Gi            memory: 6Gi*
+{% codeblock %}
+requests:
+  cpu: 2500m
+  ephemeral-storage: 1Gi
+  memory: 6Gi
+{% endcodeblock %}
 
 On the surface everything looks fine, but we will learn in the next sections that the settings above can have an important impact on the CPU utilization stability.
 
@@ -74,11 +85,21 @@ Limits and requests settings were made equal for our app and cpu was set to an i
 
 Our application resource limits:
 
-*limits:            cpu: "4"            ephemeral-storage: 6Gi            memory: 6Gi*
+{% codeblock %}
+limits:
+  cpu: "4"
+  ephemeral-storage: 6Gi
+  memory: 6Gi
+{% endcodeblock %}
 
 Our application resource requests:
 
-*requests:            cpu: "4"            ephemeral-storage: 6Gi            memory: 6Gi*
+{% codeblock %}
+requests:
+  cpu: "4"
+  ephemeral-storage: 6Gi
+  memory: 6Gi
+{% endcodeblock %}
 
 # Checking QoS class
 
