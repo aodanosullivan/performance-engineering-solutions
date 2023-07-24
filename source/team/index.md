@@ -48,7 +48,12 @@ Working on different implementation of Chaos Engineering.
 
 I work on performance testing for over a decade now. Mostly on test design and result analysis. I use JMeter as main load driver and have a chance to play with many aspects related to it. Other areas of interest are: flux queries, grafana dashboards, overall test debug, issues tracking and analysis.
 
+---
 
+### Aga
 
+![Aga](img/team/aga.profile-150x150.jpg)
+
+Currently I work in Performance Engineering, but have also background in Software and Test Configuration Engineering as well in Scrum CrossFunctional teams.
 
 
